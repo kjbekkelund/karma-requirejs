@@ -87,7 +87,7 @@ exclude = [
 ## Configuring Require.js
 
 Just like any Require.js project, you need a main module to bootstrap
-your tests. We do this is `test/test-main.js`.
+your tests. We do this via `test/test-main.js`.
 
 ### Karma `/base` Directory
 
@@ -188,7 +188,7 @@ Now we can run the tests with:
 $ karma start
 ```
 
-If you didn't configure to watch all the files and run tests
+If you didn't configure karma to watch all the files and run tests
 automatically on any change, you can trigger the tests manually by
 typing:
 
